@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+h1{
+  width: 326px;
+  height: 78px;
+  left: 99px;
+  top: 88px;
+  font-size: 64px;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tamalitos{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tamales{
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 417px;
+  height: 136px;
 }
+
+.encabezado{
+  font-size: 24px;
+  font-weight: bolder;
+  width: 192px;
+  height: 29px;
+}
+
+.precio{
+  font-size: 18px;
+}
+
+.sabordulce{
+  border-radius: 4px;
+  font-size: 24px;
+  width: 126px;
+  height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #ff77d9;
+}
+
+.saborpicante{
+  border-radius: 4px;
+  font-size: 24px;
+  width: 126px;
+  height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #ff0101;
+}
+
+
+
+
